@@ -146,20 +146,20 @@ button:hover {
 .my_resume {
     margin: 10px;
     .title {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         text-align: center;
         padding: 10px;
     }
     .profile {
         p {max-width: 900px;}
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
-    .education {margin-bottom: 20px;}
-    .skills {margin-bottom: 20px;}
+    .education {margin-bottom: 30px;}
+    .skills {margin-bottom: 30px;}
     .experience {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         p {text-decoration: underline;}
     }
-    .interests {margin-bottom: 20px;}
+    .interests {margin-bottom: 30px;}
     ul {list-style: circle;}
 }
