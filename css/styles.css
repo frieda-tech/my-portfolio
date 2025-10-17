@@ -202,6 +202,10 @@ button:hover {
         padding: 15px;
     }
     #main_footer {
-
+        padding: 10px;
+        font-size: 13px;
+        p {margin: 6px 0;}
+        display: inline;
+        margin: 3px 5px;
     }
 }
