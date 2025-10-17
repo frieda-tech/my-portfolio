@@ -213,6 +213,7 @@ button:hover {
        bottom: 0;
     }
     #home {
+        padding: 20px;
         flex-direction: column;
         text-align: center;
         #intro {max-width: 90%;}
