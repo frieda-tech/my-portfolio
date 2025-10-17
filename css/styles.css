@@ -167,11 +167,11 @@ button:hover {
     .interests {margin-bottom: 30px;}
     ul {list-style: circle;}
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
     nav {
         width: 100%;
         height: auto;
-        position: relative;
+        position: fixed;
         display: flex;
         justify-content: center;
         align-items: center;
