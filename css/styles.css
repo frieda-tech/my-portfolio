@@ -66,7 +66,11 @@ nav {
         border-radius: 5px;
         object-fit: cover;
     }
-    #intro {max-width: 500px;}
+    #intro {
+        h1 {margin-bottom: 25px;}
+        p {line-height: 1.8;}
+        max-width: 500px;
+    }
 }
 #about {
     margin-top: 5px;
@@ -217,11 +221,16 @@ button:hover {
         padding-bottom: 40px;
         min-height: auto;
         #intro {
+            margin-top: 10px;
             flex-direction: column;
             text-align: center;
             gap: 1.5rem;
             max-width: 90%;
-            p {text-align: left;}
+            p {
+                line-height: 1.7;
+                text-align: left;
+            }
+            h1 {margin-bottom: 18px;}
         }
     }
 }
