@@ -213,9 +213,15 @@ button:hover {
        bottom: 0;
     }
     #home {
-        padding: 20px;
-        flex-direction: column;
-        text-align: center;
-        #intro {max-width: 90%;}
+        padding-top: 40px;
+        padding-bottom: 40px;
+        min-height: auto;
+        #intro {
+            flex-direction: column;
+            text-align: center;
+            gap: 1.5rem;
+            max-width: 90%;
+            p {text-align: left;}
+        }
     }
 }
