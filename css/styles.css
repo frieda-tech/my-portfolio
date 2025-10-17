@@ -6,6 +6,7 @@
 html,body {
     height: 100%;
     margin: 0;
+    padding: 0;
 }
 body {
     font-family: 'Times New Roman', Times, serif;
@@ -38,6 +39,7 @@ nav {
     ul {
         list-style: none;
         padding: 0;
+        margin: 0;
     }
     li {margin: 15px;}
     a {
@@ -202,10 +204,12 @@ button:hover {
         padding: 15px;
     }
     #main_footer {
-        padding: 10px;
-        font-size: 13px;
-        p {margin: 6px 0;}
-        display: inline;
-        margin: 3px 5px;
+       text-align: right;
+       padding: 15px 10px;
+       font-size: 15px;
+       width: 100vw;
+       position: relative;
+       left: 0;
+       bottom: 0;
     }
 }
