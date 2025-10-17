@@ -227,7 +227,7 @@ button:hover {
             height: 180px;
         }
         #intro {
-            max-width: 600px;
+            max-width: 90%;
             h1 {margin-bottom: 12px;}
             p {
                 line-height: 1.7;
