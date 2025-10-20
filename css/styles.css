@@ -196,6 +196,7 @@ button:hover {
     }
     nav {
         width: 200px;
+        height: 100vh;
         position: relative;
         padding: 20px 10px;
         a {font-size: 1rem;}
