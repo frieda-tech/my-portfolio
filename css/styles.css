@@ -197,8 +197,9 @@ button:hover {
     nav {
         width: 200px;
         height: 100vh;
-        position: relative;
+        position: fixed;
         padding: 20px 10px;
+        display: flexbox;
         a {font-size: 1rem;}
     }
     #home {
