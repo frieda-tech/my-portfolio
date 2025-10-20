@@ -174,6 +174,7 @@ button:hover {
     ul {list-style: circle;}
 }
 
+/* responsiveness for tablets */
 @media screen and (max-width: 1024px) {
     * {
         margin: 0;
@@ -185,17 +186,63 @@ button:hover {
     margin: 0;
     padding: 0;
     }
+    body {
+        flex-direction: column;
+    }
     main {
-        margin-left: 125px;
-        padding: 10px;
+        margin-left: 220px;
+        padding: 20px;
         flex: 1;
     }
     nav {
-        height: 100vh;
+        width: 200px;
         position: relative;
+        padding: 20px 10px;
+        a {font-size: 1rem;}
+    }
+    #home {
+        flex-direction: column; 
+        align-items: center;
+        padding-top: 60px;
+        img {
+            width: 240px;
+            height: 240px;
+            margin-bottom: 20px;
+        }
+        #intro {
+            text-align: center;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+    }
+    #about {
+        margin: 20px;
+        li {margin: 10px 0;}
+    }
+    .project_card {
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 80%;
+            height: auto;
+        }
+        .project_text {
+            max-width: 90%;
+            text-align: center;
+        }
+    }
+    #main_footer {
+        text-align: right;
+        padding: 15px;
+        font-size: 0.95rem;
     }
 }
 
+/* responsiveness for phones */
 @media screen and (max-width: 768px) {
     * {
         margin: 0;
